@@ -122,11 +122,11 @@ Here is an example where each connected component within a TCRb sequence
 similarity network is assigned a cluster_id.
 
 
-```{python}
+```bash
 #!python -c "from tcrsampler.setup_db import install_all_next_gen; install_all_next_gen(dry_run = False)"
 ```
 
-```{python}
+```python
 import pandas as pd
 from tcrdist.repertoire import TCRrep
 from tcrdist.public import _neighbors_fixed_radius
