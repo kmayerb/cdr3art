@@ -1,5 +1,7 @@
 # cdr3art
 
+![cluster_0](https://user-images.githubusercontent.com/46639063/231309188-225288d0-8afd-4156-b74c-888916124148.png)
+
 **cdr3art - concise visualization of T cell receptor clusters**
 
 This R script allows a quick way to produce publication ready vector graphics with tidyverse and ggplot extensions, 
