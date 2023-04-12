@@ -21,6 +21,24 @@ Input files are produced by the Python package tcrdist3, but could be user suppl
 * purrr
 * readr
 
+## Input format. 
+
+See `data/cluster_0.csv` for an example input format.
+
+cdr3art -- uses a data.frame input with the following columns 
+
+* `index` - c("A", "R", "N", "D", "C", "Q", "E", "G", "H", "I", "L", "K", "M", "F", "P", "S", "T", "W", "Y", "V", "B", "Z", "X", "-")
+*  `x1...xn` are the frequency or adjusted frequencies of each amino acid
+* `cluster_id` --  integer allows one to pile many motifs into a single file
+* `type` -- "raw", "subtracted", "gene_usage"
+* `chain` -- "a" or "b"
+* `v_a_gene`  (optional if chain is "b") - used in gene_usage
+* `j_a_gene`  (optional if chain is "b") - used in gene_usage
+* `v_b_gene`  (optional if chain is "a") - used in gene_usage
+* `j_b_gene`  (optional if chain is "a") - used in gene_usage
+
+
+
 ## Commandline arguments 
 
 ```{verbatim}
