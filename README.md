@@ -59,7 +59,7 @@ Rscript cdr3art.R --input data/motif_graphic_instructions.csv \
   --individual FALSE \
   --combine TRUE \
   --k_per_page 5 \
-  --width 8 \
+  --width 4 \
   --height 2 
 ```
 
