@@ -58,7 +58,7 @@ Rscript cdr3art.R --input data/motif_graphic_instructions.csv \
   --outdir beta_chain_example \
   --individual FALSE \
   --combine TRUE \
-  --k_per_page 5 |
+  --k_per_page 5 \
   --width 8 \
   --height 2 
 ```
